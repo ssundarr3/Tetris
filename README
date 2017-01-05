@@ -1,0 +1,64 @@
+Quadris (Latinization of Tetris) 
+CS 246 Fall 2016 
+Project Members: Shridhar Sundarraj, Ian Lai, Jonathan Litovitz
+
+To Compile, go to Quadris/final/ and make
+./quadris to run
+
+
+Commands: (Note: These commands are auto-completed. i.e. lef = left, but level is ambiguous as it can be levelup/down)
+--------- (Note: You can use multipliers with these commands. i.e. 4lef moves 4left.)
+
+left
+right
+down
+drop
+
+clockwise
+counterclockwise
+
+levelup
+leveldown
+
+norandom file: Relevant only during levels 3 and 4, this command makes these levels non-
+random, instead taking input from the sequence file, starting from the beginning. This is
+to facilitate testing
+random: Relevant only during levels 3 and 4, this command restores randomness in these levels.
+
+sequence file: Executes the sequence of commands found in file. This is to facilitate the
+construction of test cases.
+
+I, J, L, etc.: Useful during testing, these commands replace the current undropped block with
+the stated block. Heaviness is detemined by the level number. Note that, for heavy blocks,
+these commands do not cause a downward move.
+
+restart
+
+Command Line Interface:
+-----------------------
+
+-text: runs the program with text only
+-seed xxx: sets the random number generator’s seed to xxx. If you don’t set the seed, you
+always get the same random sequence every time you run the program. It’s good for testing,
+but not much fun.
+-scriptfile xxx: Uses xxx instead of sequence.txt as a source of blocks for level 0
+-startlevel n: Starts the game in level n. The game starts in level 0 if this option is not
+supplied.
+
+EXTRA FEATURES:
+---------------
+1.Macro Language: Enable feature by adding flag: -extraFeatureMacro.
+Usage: Macro MacroName command1 command2 .... -1. Calling MacroName is
+equivalent to calling command1 command2 ... individually. The MacroName can
+be called with the least ambiguous name similar to other commands and with
+multipliers.
+
+2. Variable Grid Size. Enable feature by adding flag: 
+-extraFeatureGrid numRows numCols 
+
+
+
+
+
+
+
