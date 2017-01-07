@@ -1,12 +1,10 @@
+![tetrispic1](https://cloud.githubusercontent.com/assets/16379542/21737898/b51e0d62-d44b-11e6-91e9-17f2b4ca196a.jpg)
 
-# NOTE: This repo will only contain the executable due to University Policy. 
-# For the code, e-mail me at: ShridharSundarraj3@gmail.com
-
-<img src="pics/tetrisPic1.jpg"/>
-![image](http://ssundarr3.github.io/assets/images/tetrisPic1.jpg)
-![image](https://github.com/ssundarr3/Tetris/blob/master/pics/tetrisPic2.jpg)
+![tetrispic2](https://cloud.githubusercontent.com/assets/16379542/21737919/0077fb74-d44c-11e6-80f5-419e87d7e05b.jpg)
 
 
+NOTE: This repo will only contain the executable due to University Policy. 
+For the code, e-mail me at: ShridharSundarraj3@gmail.com
 
 Quadris (Latinization of Tetris) 
 CS 246 Fall 2016 
