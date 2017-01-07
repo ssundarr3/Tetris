@@ -46,10 +46,13 @@ Command Line Interface:
 -----------------------
 
 -text: runs the program with text only
+
 -seed xxx: sets the random number generator’s seed to xxx. If you don’t set the seed, you
 always get the same random sequence every time you run the program. It’s good for testing,
 but not much fun.
+
 -scriptfile xxx: Uses xxx instead of sequence.txt as a source of blocks for level 0
+
 -startlevel n: Starts the game in level n. The game starts in level 0 if this option is not
 supplied.
 
@@ -63,6 +66,7 @@ supplied on the command line. This level is non-random, and can be used to test 
 predetermined set of blocks. Make sure that sequence.txt, and any other sequence
 files you intend to use with your project, are submitted to Marmoset along with
 your code.
+
 • Level 1: The block selector will randomly choose a block with probabilities skewed such that
 S and Z blocks are selected with probability 1
 12 each, and the other blocks are selected with
@@ -70,6 +74,7 @@ probability 1
 6
 each.
 • Level 2: All blocks are selected with equal probability.
+
 • Level 3: The block selector will randomly choose a block with probabilities skewed such that
 S and Z blocks are selected with probability 2
 9
@@ -79,6 +84,7 @@ probability 1
 each. Moreover, blocks generated in level 3 are “heavy”: every command to
 move or rotate the block will be followed immediately and automatically by a downward move
 of one row (if possible).
+
 • Level 4: In addition to the rules of Level 3, in Level 4 there is an external constructive force:
 every time you place 5 (and also 10, 15, etc.) blocks without clearing at least one row, a
 1x1 block (indicated by * in text, and by the colour brown in graphics) is dropped onto your
@@ -87,6 +93,8 @@ a row, the row disappears. So if you do not act quickly, these blocks will work 
 split your screen in two, making the game difficult to play
 
 Scoring
+-------
+
 The game is scored as follows: when a line (or multiple lines) is cleared, you score points equal to
 (your current level, plus number of lines) squared. (For example, clearing a line in level 2 is worth 9
 points.) In addition, when a block is completely removed from the screen (i.e., when all of its cells
