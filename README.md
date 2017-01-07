@@ -106,7 +106,7 @@ plus one, squared. (For ex
 
 
 
-EXTRA FEATURES:
+Extra Features:
 ---------------
 1.Macro Language: Enable feature by adding flag: -extraFeatureMacro.
 Usage: Macro MacroName command1 command2 .... -1. Calling MacroName is
