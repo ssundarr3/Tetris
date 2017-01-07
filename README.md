@@ -14,9 +14,12 @@ To Compile, go to Quadris/final/ and make
 ./quadris to run
 
 
-Commands: (Note: These commands are auto-completed. i.e. lef = left, but level is ambiguous as it can be levelup/down)
---------- (Note: You can use multipliers with these commands. i.e. 4lef moves 4left.)
+Commands: 
+---------
 
+(Note: These commands are auto-completed. i.e. lef = left, but level is ambiguous as it can be levelup/down)
+(Note: You can use multipliers with these commands. i.e. 4lef moves 4left.)
+ 
 left
 right
 down
@@ -57,7 +60,7 @@ but not much fun.
 supplied.
 
 
-LEVELS
+Levels
 ------
 
 Level 0: Takes its blocks in sequence
