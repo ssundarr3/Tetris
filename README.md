@@ -114,7 +114,7 @@ equivalent to calling command1 command2 ... individually. The MacroName can
 be called with the least ambiguous name similar to other commands and with
 multipliers.
 
-2. Variable Grid Size. Enable feature by adding flag: 
+2.Variable Grid Size. Enable feature by adding flag: 
 -extraFeatureGrid numRows numCols 
 
 
