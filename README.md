@@ -1,3 +1,8 @@
+online visualizer:  http://shridharsundarraj.me/#projects/1
+
+Genetic AI: https://github.com/ssundarr3/Machine-Learning-Tetris
+
+
 ![tetrispic1](https://cloud.githubusercontent.com/assets/16379542/21737898/b51e0d62-d44b-11e6-91e9-17f2b4ca196a.jpg)
 
 ![tetrispic2](https://cloud.githubusercontent.com/assets/16379542/21737919/0077fb74-d44c-11e6-80f5-419e87d7e05b.jpg)
